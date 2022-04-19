@@ -37,6 +37,7 @@ sudo grep 445/open/tcp $companypath/nmap/quick.gnmap | cut -d " " -f2 > $company
 sudo grep 389/open/tcp $companypath/nmap/quick.gnmap | cut -d " " -f2 > $companypath/nmap/kerberos.txt
 sudo grep 21/open/tcp $companypath/nmap/quick.gnmap | cut -d " " -f2 > $companypath/nmap/ftp.txt
 sudo grep 22/open/tcp $companypath/nmap/quick.gnmap | cut -d " " -f2 > $companypath/nmap/ssh.txt
+sudo grep 23/open/tcp $companypath/nmap/quick.gnmap | cut -d " " -f2 > $companypath/nmap/telnet.txt
 
 #sudo nmap -vv -sV -iL $companypath/inscope.txt -oA $companypath/nmap/normal
 
